@@ -10,7 +10,10 @@ public class RomanNumeral {
     }
 
     private void translate(){
-
+        if(arabic >= 900){
+            arabic -= 900;
+            roman += "CM";
+        }
         if(arabic >= 500){
             arabic -= 500;
             roman += "D";
