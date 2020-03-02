@@ -25,6 +25,13 @@ public class ChristmasSongTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void dayTwelfthTest() {
+        String expected = "On the twelfth day of Christmas my true love gave to me: twelve Drummers Drumming, eleven Pipers Piping, ten Lords-a-Leaping, nine Ladies Dancing, eight Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.";
+        String actual = ChristmasSong.sing(12);
+        assertEquals(expected, actual);
+    }
+
     @After
     public void tearDown(){
         temp = null;
