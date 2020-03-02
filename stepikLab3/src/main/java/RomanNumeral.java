@@ -38,7 +38,7 @@ public class RomanNumeral {
             arabic -= 40;
             roman += "XL";
         }
-        while(arabic > 9 && arabic < 40){
+        while(arabic >= 10 && arabic < 40){
             arabic -= 10;
             roman += "X";
         }
@@ -46,7 +46,7 @@ public class RomanNumeral {
             arabic -= 9;
             roman += "IX";
         }
-        if(arabic > 4 && arabic < 9){
+        if(arabic >= 5 && arabic < 9){
             arabic -= 5;
             roman += "V";
         }
