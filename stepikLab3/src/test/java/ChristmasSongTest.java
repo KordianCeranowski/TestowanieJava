@@ -67,6 +67,12 @@ public class ChristmasSongTest {
         Assert.fail();
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void invalidDayRangeThrowsExceptionTest(){
+        temp.singSection(-1, 23);
+        Assert.fail();
+    }
+
     @After
     public void tearDown(){
         temp = null;
