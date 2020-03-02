@@ -11,7 +11,11 @@ public class RomanNumeral {
 
     private void translate(){
 
-        if(arabic >= 400){
+        if(arabic >= 500){
+            arabic -= 500;
+            roman += "D";
+        }
+        if(arabic >= 400 && arabic < 500){
             arabic -= 400;
             roman += "CD";
         }
