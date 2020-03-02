@@ -11,6 +11,7 @@ public class RomanNumeral {
 
     private void translate(){
 
+
         if(arabic == 4){
             arabic -= 4;
             roman += "IV";
