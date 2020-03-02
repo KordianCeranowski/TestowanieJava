@@ -18,6 +18,10 @@ class ChristmasSong {
     }
 
     String singSection(int start, int stop){
+        if( start <= 0 || start > 12 ||  stop <= 0 || stop > 12 ){
+            throw new IllegalArgumentException();
+        }
+
         String song = "";
         for(int i = start; i <= stop ; i++){
             song += sing(i);
