@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ee3e622-0a7e-4c5d-b8ab-f5f4f02a2590" name="Default Changelist" comment="Test day 2 working">
+    <list default="true" id="4ee3e622-0a7e-4c5d-b8ab-f5f4f02a2590" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ChristmasSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChristmasSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChristmasSongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChristmasSongTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +175,7 @@
       <updated>1583135396342</updated>
       <workItem from="1583135399544" duration="8915000" />
       <workItem from="1583157437382" duration="3008000" />
-      <workItem from="1583160583058" duration="6930000" />
+      <workItem from="1583160583058" duration="7223000" />
     </task>
     <task id="LOCAL-00001" summary="Printing I">
       <created>1583161223951</created>
@@ -429,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583167041890</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Test day 12">
+      <created>1583168011570</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1583168011570</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Test day 12 working">
+      <created>1583168021806</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1583168021806</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,8 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Printing X" />
-    <MESSAGE value="Not printing XL and more" />
     <MESSAGE value="Printing up to XLIX" />
     <MESSAGE value="Printing up to LXXXIX" />
     <MESSAGE value="Not printing over XC" />
@@ -472,7 +484,9 @@
     <MESSAGE value="Test day 1 working" />
     <MESSAGE value="Test day 2" />
     <MESSAGE value="Test day 2 working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test day 2 working" />
+    <MESSAGE value="Test day 12" />
+    <MESSAGE value="Test day 12 working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test day 12 working" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
