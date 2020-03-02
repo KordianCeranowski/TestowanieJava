@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ee3e622-0a7e-4c5d-b8ab-f5f4f02a2590" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanNumeral.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +163,7 @@
       <updated>1583135396342</updated>
       <workItem from="1583135399544" duration="8915000" />
       <workItem from="1583157437382" duration="3008000" />
-      <workItem from="1583160583058" duration="1100000" />
+      <workItem from="1583160583058" duration="1601000" />
     </task>
     <task id="LOCAL-00001" summary="Printing I">
       <created>1583161223951</created>
@@ -228,7 +228,35 @@
       <option name="project" value="LOCAL" />
       <updated>1583161631203</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Printing VII and VII and IX">
+      <created>1583161774149</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161774149</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Not printing X or more">
+      <created>1583161809553</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161809553</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Printing X">
+      <created>1583161880472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161880472</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Not printing XL and more">
+      <created>1583161925594</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161925594</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +283,11 @@
     <MESSAGE value="Printing V" />
     <MESSAGE value="Not printing VI" />
     <MESSAGE value="Printing VI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printing VI" />
+    <MESSAGE value="Printing VII and VII and IX" />
+    <MESSAGE value="Not printing X or more" />
+    <MESSAGE value="Printing X" />
+    <MESSAGE value="Not printing XL and more" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not printing XL and more" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
