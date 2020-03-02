@@ -18,6 +18,10 @@ class ChristmasSong {
     }
 
     String singSection(int start, int stop){
-        return "";
+        String song = "";
+        for(int i = start; i <= stop ; i++){
+            song += sing(i);
+        }
+        return song;
     }
 }

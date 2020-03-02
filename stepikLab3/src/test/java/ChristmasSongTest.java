@@ -34,11 +34,11 @@ public class ChristmasSongTest {
 
     @Test
     public void singSection1to5() {
-        String expected = "On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.\n" +
-                "On the second day of Christmas my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.\n" +
-                "On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.\n" +
-                "On the fourth day of Christmas my true love gave to me: four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.\n" +
-                "On the fifth day of Christmas my true love gave to me: five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.\n";
+        String expected = "On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree." +
+                "On the second day of Christmas my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree." +
+                "On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree." +
+                "On the fourth day of Christmas my true love gave to me: four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree." +
+                "On the fifth day of Christmas my true love gave to me: five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.";
         String actual = temp.singSection(1,5);
         assertEquals(expected, actual);
     }
