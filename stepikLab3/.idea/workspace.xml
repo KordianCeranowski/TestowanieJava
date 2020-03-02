@@ -162,7 +162,7 @@
       <updated>1583135396342</updated>
       <workItem from="1583135399544" duration="8915000" />
       <workItem from="1583157437382" duration="3008000" />
-      <workItem from="1583160583058" duration="2989000" />
+      <workItem from="1583160583058" duration="3359000" />
     </task>
     <task id="LOCAL-00001" summary="Printing I">
       <created>1583161223951</created>
@@ -367,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583163362543</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added organised list of roman signs">
+      <created>1583163794891</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163794891</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Printing IV" />
     <MESSAGE value="Not printing V" />
     <MESSAGE value="Printing V" />
     <MESSAGE value="Not printing VI" />
@@ -410,7 +416,8 @@
     <MESSAGE value="Refactor if statements" />
     <MESSAGE value="Not printing over M" />
     <MESSAGE value="Printing all signs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printing all signs" />
+    <MESSAGE value="Added organised list of roman signs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added organised list of roman signs" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
