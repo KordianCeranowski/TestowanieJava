@@ -12,7 +12,9 @@ public class Pangram {
 
         int startOfAsciiLetters = 'a';
         for (char sign : chars) {
-            if(sign >= 'a' && sign <= 'z'){
+            if (Character.isDigit(sign))
+                throw new IllegalArgumentException();
+            if(Character.isLetter(sign)){
                 crossedOut[sign - startOfAsciiLetters] = true;
             }
         }

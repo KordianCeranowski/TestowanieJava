@@ -27,6 +27,12 @@ public class PangramTest {
         assertFalse(temp.check("This is not a pangram"));
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testDigitInTextThrowsException(){
+        temp.check("test123test");
+        Assert.fail();
+    }
+
     @Test
     public void testCheckList(){
         List<String> input = new ArrayList<String>();
@@ -39,7 +45,15 @@ public class PangramTest {
         assertEquals(expected, temp.checkList(input));
     }
 
-
+    @Test(expected = IllegalArgumentException.class)
+    public void testDigitInTextInListThrowsException(){
+        List<String> input = new ArrayList<String>();
+        input.add("The quick brown fox jumps over the lazy dog");
+        input.add("This is not a pangram");
+        input.add("test123test");
+        temp.checkList(input);
+        Assert.fail();
+    }
 
     @After
     public void tearDown(){

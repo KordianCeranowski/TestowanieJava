@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ee3e622-0a7e-4c5d-b8ab-f5f4f02a2590" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ChristmasSongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChristmasSongTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pangram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PangramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PangramTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Christmas">
+  <component name="RunManager" selected="JUnit.Pangram">
     <configuration name="Armstrong" type="JUnit" factoryName="JUnit">
       <module name="stepikLab3" />
       <option name="PACKAGE_NAME" value="" />
@@ -174,7 +176,7 @@
       <updated>1583135396342</updated>
       <workItem from="1583135399544" duration="8915000" />
       <workItem from="1583157437382" duration="3008000" />
-      <workItem from="1583160583058" duration="8320000" />
+      <workItem from="1583160583058" duration="9987000" />
     </task>
     <task id="LOCAL-00001" summary="Printing I">
       <created>1583161223951</created>
@@ -484,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583169200847</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Throwing exception on wrong day in section test">
+      <created>1583169283251</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1583169283251</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Throwing exception on wrong day in section working">
+      <created>1583169338131</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1583169338131</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,8 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Printing over CD" />
-    <MESSAGE value="Not printing over D" />
     <MESSAGE value="Printing over D" />
     <MESSAGE value="Not printing over DM" />
     <MESSAGE value="Printing over DM" />
@@ -527,7 +541,9 @@
     <MESSAGE value="Sing all song working" />
     <MESSAGE value="Throwing exception on wrong day test" />
     <MESSAGE value="Throwing exception on wrong day test working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Throwing exception on wrong day test working" />
+    <MESSAGE value="Throwing exception on wrong day in section test" />
+    <MESSAGE value="Throwing exception on wrong day in section working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Throwing exception on wrong day in section working" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
