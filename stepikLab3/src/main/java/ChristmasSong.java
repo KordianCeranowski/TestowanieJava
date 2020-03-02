@@ -24,4 +24,8 @@ class ChristmasSong {
         }
         return song;
     }
+
+    String singAll(){
+        return singSection(1,12);
+    }
 }
