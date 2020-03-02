@@ -10,9 +10,15 @@ public class RomanNumeral {
     }
 
     private void translate(){
+
+        if(arabic == 4){
+            arabic -= 4;
+            roman += "IV";
+        }
+        else
         while(arabic > 0 && arabic < 4){
             arabic--;
-            roman = roman + "I";
+            roman += "I";
         }
     }
 
