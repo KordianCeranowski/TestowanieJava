@@ -162,7 +162,7 @@
       <updated>1583135396342</updated>
       <workItem from="1583135399544" duration="8915000" />
       <workItem from="1583157437382" duration="3008000" />
-      <workItem from="1583160583058" duration="1980000" />
+      <workItem from="1583160583058" duration="2117000" />
     </task>
     <task id="LOCAL-00001" summary="Printing I">
       <created>1583161223951</created>
@@ -290,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583162525613</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Printing over C">
+      <created>1583162582321</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162582321</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Not printing over CD">
+      <created>1583162635171</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162635171</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +340,9 @@
     <MESSAGE value="Not printing over XC" />
     <MESSAGE value="Printing over XC" />
     <MESSAGE value="Not printing over C" />
-    <option name="LAST_COMMIT_MESSAGE" value="Not printing over C" />
+    <MESSAGE value="Printing over C" />
+    <MESSAGE value="Not printing over CD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not printing over CD" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
