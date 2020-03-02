@@ -55,6 +55,26 @@ public class PangramTest {
         Assert.fail();
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testNullInListThrowsException(){
+        List<String> input = new ArrayList<String>();
+        input.add("The quick brown fox jumps over the lazy dog");
+        input.add(null);
+        input.add("This is not a pangram");
+        temp.checkList(input);
+        Assert.fail();
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testEmptyStringInListThrowsException(){
+        List<String> input = new ArrayList<String>();
+        input.add("The quick brown fox jumps over the lazy dog");
+        input.add("");
+        input.add("This is not a pangram");
+        temp.checkList(input);
+        Assert.fail();
+    }
+
     @After
     public void tearDown(){
         temp = null;

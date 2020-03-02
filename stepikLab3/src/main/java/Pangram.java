@@ -4,6 +4,12 @@ import java.util.List;
 
 public class Pangram {
     public boolean check(String inputString) {
+
+        if(inputString == null)
+            throw new IllegalArgumentException();
+        if(inputString == "")
+            throw new IllegalArgumentException();
+
         char[] chars = inputString.toLowerCase().toCharArray();
 
         int alphabetSize = 'z' - 'a' + 1;

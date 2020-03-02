@@ -4,7 +4,6 @@
     <list default="true" id="4ee3e622-0a7e-4c5d-b8ab-f5f4f02a2590" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pangram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PangramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PangramTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +175,7 @@
       <updated>1583135396342</updated>
       <workItem from="1583135399544" duration="8915000" />
       <workItem from="1583157437382" duration="3008000" />
-      <workItem from="1583160583058" duration="9987000" />
+      <workItem from="1583160583058" duration="10119000" />
     </task>
     <task id="LOCAL-00001" summary="Printing I">
       <created>1583161223951</created>
@@ -500,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583169338131</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Pangram exception handling">
+      <created>1583173874049</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1583173874049</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +524,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Printing over D" />
     <MESSAGE value="Not printing over DM" />
     <MESSAGE value="Printing over DM" />
     <MESSAGE value="Refactor" />
@@ -543,7 +548,8 @@
     <MESSAGE value="Throwing exception on wrong day test working" />
     <MESSAGE value="Throwing exception on wrong day in section test" />
     <MESSAGE value="Throwing exception on wrong day in section working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Throwing exception on wrong day in section working" />
+    <MESSAGE value="Pangram exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pangram exception handling" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
