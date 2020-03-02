@@ -11,8 +11,12 @@ public class RomanNumeral {
 
     private void translate(){
 
+        while(arabic > 9){
+            arabic -= 10;
+            roman += "X";
+        }
         if (arabic == 9){
-            arabic -=9;
+            arabic -= 9;
             roman += "IX";
         }
         if(arabic > 4 && arabic < 9){
