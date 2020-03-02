@@ -10,31 +10,35 @@ public class RomanNumeral {
     }
 
     private void translate(){
-        if(arabic >= 900){
+        while(arabic >= 1000){
+            arabic -= 1000;
+            roman += "M";
+        }
+        while(arabic >= 900){
             arabic -= 900;
             roman += "CM";
         }
-        if(arabic >= 500){
+        while(arabic >= 500){
             arabic -= 500;
             roman += "D";
         }
-        if(arabic >= 400){
+        while(arabic >= 400){
             arabic -= 400;
             roman += "CD";
         }
-        if(arabic >= 100){
+        while(arabic >= 100){
             arabic -= 100;
             roman += "C";
         }
-        if(arabic >= 90 ){
+        while(arabic >= 90 ){
             arabic -= 90;
             roman += "XC";
         }
-        if(arabic >= 50){
+        while(arabic >= 50){
             arabic -=50;
             roman += "L";
         }
-        if(arabic >= 40){
+        while(arabic >= 40){
             arabic -= 40;
             roman += "XL";
         }
@@ -42,15 +46,15 @@ public class RomanNumeral {
             arabic -= 10;
             roman += "X";
         }
-        if (arabic >= 9){
+        while (arabic >= 9){
             arabic -= 9;
             roman += "IX";
         }
-        if(arabic >= 5){
+        while(arabic >= 5){
             arabic -= 5;
             roman += "V";
         }
-        if(arabic == 4){
+        while(arabic == 4){
             arabic -= 4;
             roman += "IV";
         }

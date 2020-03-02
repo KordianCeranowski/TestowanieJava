@@ -162,7 +162,7 @@
       <updated>1583135396342</updated>
       <workItem from="1583135399544" duration="8915000" />
       <workItem from="1583157437382" duration="3008000" />
-      <workItem from="1583160583058" duration="2480000" />
+      <workItem from="1583160583058" duration="2745000" />
     </task>
     <task id="LOCAL-00001" summary="Printing I">
       <created>1583161223951</created>
@@ -339,7 +339,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583162918055</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Refactor">
+      <created>1583163099871</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163099871</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Refactor if statements">
+      <created>1583163211825</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163211825</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Not printing over M">
+      <created>1583163257509</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163257509</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,9 +378,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Printing I" />
-    <MESSAGE value="Printing II" />
-    <MESSAGE value="Printing III" />
     <MESSAGE value="Not printing IV" />
     <MESSAGE value="Printing IV" />
     <MESSAGE value="Not printing V" />
@@ -382,7 +400,10 @@
     <MESSAGE value="Printing over D" />
     <MESSAGE value="Not printing over DM" />
     <MESSAGE value="Printing over DM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printing over DM" />
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="Refactor if statements" />
+    <MESSAGE value="Not printing over M" />
+    <option name="LAST_COMMIT_MESSAGE" value="Not printing over M" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
