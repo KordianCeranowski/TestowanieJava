@@ -61,6 +61,12 @@ public class ChristmasSongTest {
         assertEquals(expected, actual);
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void invalidDayThrowsExceptionTest(){
+        temp.sing(30);
+        Assert.fail();
+    }
+
     @After
     public void tearDown(){
         temp = null;
