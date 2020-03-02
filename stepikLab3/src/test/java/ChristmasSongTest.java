@@ -18,6 +18,13 @@ public class ChristmasSongTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void dayTwoTest() {
+        String expected = "On the second day of Christmas my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.";
+        String actual = ChristmasSong.sing(2);
+        assertEquals(expected, actual);
+    }
+
     @After
     public void tearDown(){
         temp = null;
