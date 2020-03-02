@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 public class PointTest {
 
-    Point pointOne, pointTwo;
+    private Point pointOne, pointTwo;
 
     @Before
     public void setUp(){

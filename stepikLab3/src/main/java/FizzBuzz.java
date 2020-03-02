@@ -1,5 +1,5 @@
-public class FizzBuzz {
-    public String print(int number){
+class FizzBuzz {
+    String print(int number){
 
         if(number < 0){
             throw new IllegalArgumentException();

@@ -7,8 +7,8 @@ import static org.junit.Assert.*;
 
 public class PlanetsTest {
 
-    Planets temp;
-    double delta;
+    private Planets temp;
+    private double delta;
 
     @Before
     public void setUp(){

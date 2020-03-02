@@ -1,22 +1,22 @@
 import java.util.ArrayList;
 
-public class RomanNumeral {
+class RomanNumeral {
 
-    class RomanSign{
+    static class RomanSign{
         int value;
         String sign;
 
-        public RomanSign(int value, String sign) {
+        RomanSign(int value, String sign) {
             this.value = value;
             this.sign = sign;
         }
     }
 
-    String roman;
-    int arabic;
-    ArrayList<RomanSign> signs;
+    private String roman;
+    private int arabic;
+    private ArrayList<RomanSign> signs;
 
-    public RomanNumeral(int i) {
+    RomanNumeral(int i) {
         roman = "";
         arabic = i;
 
@@ -48,5 +48,5 @@ public class RomanNumeral {
         }
     }
 
-    public String getRomanNumeral(){return roman;}
+    String getRomanNumeral(){return roman;}
 }

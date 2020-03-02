@@ -9,12 +9,12 @@ class ChristmasSong {
         if( day <= 0 || day > 12 ){
             throw new IllegalArgumentException();
         }
-        String song = "On the " + numbersOfDays[day - 1] + " day of Christmas my true love gave to me: ";
+        StringBuilder song = new StringBuilder("On the " + numbersOfDays[day - 1] + " day of Christmas my true love gave to me: ");
         int presentsStartAt = 12 - day;
         for(int i = presentsStartAt; i < 12; i++){
-            song += presents[i];
+            song.append(presents[i]);
         }
-        return song;
+        return song.toString();
     }
 
     String singSection(int start, int stop){
@@ -22,11 +22,11 @@ class ChristmasSong {
             throw new IllegalArgumentException();
         }
 
-        String song = "";
+        StringBuilder song = new StringBuilder();
         for(int i = start; i <= stop ; i++){
-            song += sing(i);
+            song.append(sing(i));
         }
-        return song;
+        return song.toString();
     }
 
     String singAll(){

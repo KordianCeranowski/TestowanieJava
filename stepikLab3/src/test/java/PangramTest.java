@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 public class PangramTest {
 
-    Pangram temp;
+    private Pangram temp;
 
     @Before
     public void setUp(){

@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4ee3e622-0a7e-4c5d-b8ab-f5f4f02a2590" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChristmasSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChristmasSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pangram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Planets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Planets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanNumeral.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +80,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Pangram">
+  <component name="RunManager" selected="JUnit.All">
+    <configuration name="All" type="JUnit" factoryName="JUnit">
+      <module name="stepikLab3" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Armstrong" type="JUnit" factoryName="JUnit">
       <module name="stepikLab3" />
       <option name="PACKAGE_NAME" value="" />
@@ -159,6 +175,7 @@
       <item itemvalue="JUnit.Armstrong" />
       <item itemvalue="JUnit.Point" />
       <item itemvalue="JUnit.Pangram" />
+      <item itemvalue="JUnit.All" />
       <item itemvalue="JUnit.RomanNumerals" />
       <item itemvalue="JUnit.Christmas" />
     </list>
@@ -175,7 +192,7 @@
       <updated>1583135396342</updated>
       <workItem from="1583135399544" duration="8915000" />
       <workItem from="1583157437382" duration="3008000" />
-      <workItem from="1583160583058" duration="10119000" />
+      <workItem from="1583160583058" duration="10951000" />
     </task>
     <task id="LOCAL-00001" summary="Printing I">
       <created>1583161223951</created>
@@ -506,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583173874049</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Pangram exception handling for nulls and empty strings">
+      <created>1583174124887</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1583174124887</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Not printing over DM" />
     <MESSAGE value="Printing over DM" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Refactor if statements" />
@@ -549,7 +572,8 @@
     <MESSAGE value="Throwing exception on wrong day in section test" />
     <MESSAGE value="Throwing exception on wrong day in section working" />
     <MESSAGE value="Pangram exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pangram exception handling" />
+    <MESSAGE value="Pangram exception handling for nulls and empty strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pangram exception handling for nulls and empty strings" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

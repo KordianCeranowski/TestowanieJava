@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Pangram {
-    public boolean check(String inputString) {
+class Pangram {
+    boolean check(String inputString) {
 
         if(inputString == null)
             throw new IllegalArgumentException();
-        if(inputString == "")
+        if(inputString.equals(""))
             throw new IllegalArgumentException();
 
         char[] chars = inputString.toLowerCase().toCharArray();
@@ -33,7 +33,7 @@ public class Pangram {
         return true;
     }
 
-    public List<Boolean> checkList(List<String> input){
+    List<Boolean> checkList(List<String> input){
         List<Boolean> output = new ArrayList<Boolean>();
         for (String string : input) {
             output.add(check(string));

@@ -8,7 +8,7 @@ import static org.junit.Assert.assertFalse;
 
 public class ArmstrongTest {
 
-    Armstrong temp;
+    private Armstrong temp;
 
     @Before
     public void setUp(){

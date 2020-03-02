@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 public class ChristmasSongTest {
 
-    ChristmasSong temp;
+    private ChristmasSong temp;
 
     @Before
     public void setUp(){

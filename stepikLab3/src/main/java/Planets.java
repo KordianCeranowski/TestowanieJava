@@ -1,9 +1,8 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
-public class Planets {
-    public double CalculateAge(double timeInSeconds, String planetName){
+class Planets {
+    double CalculateAge(double timeInSeconds, String planetName){
 
         List<String> planets = Arrays.asList("Merkury", "Wenus", "Ziemia", "Mars", "Jowisz", "Saturn", "Uran", "Neptun");
         List<Double> times = Arrays.asList(0.2408467, 0.61519726, 1.0, 1.8808158, 11.862615, 29.447498, 84.016846, 164.79132);
@@ -15,9 +14,6 @@ public class Planets {
         int indexOfPlanet = planets.indexOf(planetName);
         Double timeFactor = times.get(indexOfPlanet);
 
-        double timeInYears = timeInSeconds / secondsInYear / timeFactor;
-
-        //return Math.round(timeInYears * 100.0) / 100.0;
-        return timeInYears;
+        return timeInSeconds / secondsInYear / timeFactor;
     }
 }

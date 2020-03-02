@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 class Point {
 
-    double x, y;
+    private double x, y;
 
-    public Point(double x, double y) {
+    Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
@@ -22,15 +22,15 @@ class Point {
         return y;
     }
 
-    public Point translate(double a, double b) {
+    Point translate(double a, double b) {
         return new Point(x + a, y + b);
     }
 
-    public Point scale(double s) {
+    Point scale(double s) {
         return new Point(x * s, y * s);
     }
 
-    public String show() {
+    String show() {
         double x = Math.round(this.x * 10.0) / 10.0;
         double y = Math.round(this.y * 10.0) / 10.0;
         return  x + " " + y;
