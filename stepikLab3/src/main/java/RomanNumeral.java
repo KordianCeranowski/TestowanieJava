@@ -12,7 +12,7 @@ public class RomanNumeral {
     private void translate(){
 
 
-        if(arabic == 5){
+        if(arabic >= 5){
             arabic -= 5;
             roman += "V";
         }
