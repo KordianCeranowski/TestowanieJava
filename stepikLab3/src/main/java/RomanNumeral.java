@@ -18,35 +18,35 @@ public class RomanNumeral {
             arabic -= 500;
             roman += "D";
         }
-        if(arabic >= 400 && arabic < 500){
+        if(arabic >= 400){
             arabic -= 400;
             roman += "CD";
         }
-        if(arabic >= 100 && arabic < 400){
+        if(arabic >= 100){
             arabic -= 100;
             roman += "C";
         }
-        if(arabic >= 90 && arabic < 100){
+        if(arabic >= 90 ){
             arabic -= 90;
             roman += "XC";
         }
-        if(arabic >= 50 && arabic < 90){
+        if(arabic >= 50){
             arabic -=50;
             roman += "L";
         }
-        if(arabic >= 40 && arabic < 50){
+        if(arabic >= 40){
             arabic -= 40;
             roman += "XL";
         }
-        while(arabic >= 10 && arabic < 40){
+        while(arabic >= 10){
             arabic -= 10;
             roman += "X";
         }
-        if (arabic == 9){
+        if (arabic >= 9){
             arabic -= 9;
             roman += "IX";
         }
-        if(arabic >= 5 && arabic < 9){
+        if(arabic >= 5){
             arabic -= 5;
             roman += "V";
         }
@@ -54,8 +54,7 @@ public class RomanNumeral {
             arabic -= 4;
             roman += "IV";
         }
-        else
-        while(arabic > 0 && arabic < 4){
+        while(arabic >= 1){
             arabic--;
             roman += "I";
         }
