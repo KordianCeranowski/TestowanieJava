@@ -13,7 +13,7 @@ class ArmstrongTest {
     private static Armstrong temp;
 
     @BeforeAll
-    public static void setUp(){
+    static void setUp(){
         temp = new Armstrong();
     }
 
@@ -58,7 +58,7 @@ class ArmstrongTest {
     }
 
     @AfterAll
-    public static void tearDown(){
+    static void tearDown(){
         temp = null;
     }
 }

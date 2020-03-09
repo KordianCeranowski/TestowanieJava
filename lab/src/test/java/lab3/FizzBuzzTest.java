@@ -1,6 +1,5 @@
 package lab3;
 
-import lab3.FizzBuzz;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Before;

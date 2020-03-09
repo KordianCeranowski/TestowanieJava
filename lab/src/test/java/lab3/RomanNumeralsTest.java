@@ -1,6 +1,5 @@
 package lab3;
 
-import lab3.RomanNumeral;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

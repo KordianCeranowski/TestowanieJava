@@ -1,6 +1,5 @@
 package lab3;
 
-import lab3.ChristmasSong;
 import org.junit.*;
 
 import static org.junit.Assert.assertEquals;

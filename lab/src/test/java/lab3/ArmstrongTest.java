@@ -1,6 +1,5 @@
 package lab3;
 
-import lab3.Armstrong;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
