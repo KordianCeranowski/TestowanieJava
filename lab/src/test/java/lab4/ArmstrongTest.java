@@ -1,67 +1,64 @@
-package lab3;
+package lab4;
 
 import lab3.Armstrong;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertFalse;
+import org.junit.jupiter.api.*;
 
-public class ArmstrongTest {
+import static junit.framework.TestCase.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
-    private Armstrong temp;
 
-    @Before
-    public void setUp(){
+class ArmstrongTest {
+
+    private static Armstrong temp;
+
+    @BeforeAll
+    public static void setUp(){
         temp = new Armstrong();
     }
 
     @Test
-    public void testNegative15ReturnsFalse(){
+    void testNegative15ReturnsFalse(){
         assertFalse(temp.IsArmstrongNumber("-15"));
     }
 
     @Test
-    public void testNegative9ReturnsFalse(){
+    void testNegative9ReturnsFalse(){
         assertFalse(temp.IsArmstrongNumber("-9"));
     }
 
     @Test
-    public void test10ReturnsFalse(){
+    void test10ReturnsFalse(){
         assertFalse(temp.IsArmstrongNumber("10"));
     }
 
     @Test
-    public void test11ReturnsFalse(){
+    void test11ReturnsFalse(){
         assertFalse(temp.IsArmstrongNumber("11"));
     }
 
     @Test
-    public void test9ReturnsTrue(){
+    void test9ReturnsTrue(){
         assertTrue(temp.IsArmstrongNumber("9"));
     }
 
     @Test
-    public void test8ReturnsTrue(){
+    void test8ReturnsTrue(){
         assertTrue(temp.IsArmstrongNumber("8"));
     }
 
-    @Test(expected = NumberFormatException.class)
-    public void testTextThrowsException(){
-        temp.IsArmstrongNumber("Hello World");
-        Assert.fail();
+    @Test
+    void testTextThrowsException(){
+        Assertions.assertThrows(NumberFormatException.class, () -> temp.IsArmstrongNumber("Hello World"));
     }
 
-    @Test(expected = NumberFormatException.class)
-    public void testTextWithDigitsThrowsException(){
-        temp.IsArmstrongNumber("G00dby3 W0r1d :(");
-        Assert.fail();
+    @Test
+    void testTextWithDigitsThrowsException(){
+        Assertions.assertThrows(NumberFormatException.class, () -> temp.IsArmstrongNumber("G00dby3 W0r1d :("));
     }
 
-    @After
-    public void tearDown(){
+    @AfterAll
+    public static void tearDown(){
         temp = null;
     }
 }

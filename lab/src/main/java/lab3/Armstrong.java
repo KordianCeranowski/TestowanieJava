@@ -1,7 +1,7 @@
 package lab3;
 
-class Armstrong {
-    boolean IsArmstrongNumber(String input) {
+public class Armstrong {
+    public boolean IsArmstrongNumber(String input) {
         int sum = 0;
         for (int i = 0; i < input.length(); i++){
             int digit = Character.getNumericValue(input.charAt(i));
