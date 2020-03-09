@@ -1,5 +1,6 @@
 language: java
 <<<<<<< HEAD
+<<<<<<< HEAD
 addons:
   apt:
     packages:
@@ -14,3 +15,10 @@ jdk:
 jdk:
  - openjdk8
 >>>>>>> 50782a3e55e703cfd19bcfb2ba384aced1aab41c
+=======
+jdk:
+  - oraclejdk11
+  - openjdk11
+before_install:
+  - sudo apt-get install ant-optional
+>>>>>>> f7d176c9b8ec10fa94d5a1e6d564ee3a48265d91
