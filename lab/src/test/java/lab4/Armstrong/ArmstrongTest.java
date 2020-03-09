@@ -1,4 +1,4 @@
-package lab4;
+package lab4.Armstrong;
 
 import lab3.Armstrong;
 
