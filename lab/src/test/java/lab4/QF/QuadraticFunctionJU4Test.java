@@ -1,10 +1,10 @@
-package lab4;
+package lab4.QF;
 
+import lab4.QuadraticFunction;
 import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import static org.junit.Assert.assertNotEquals;
 
 public class QuadraticFunctionJU4Test {
     private QuadraticFunction temp;
@@ -33,14 +33,28 @@ public class QuadraticFunctionJU4Test {
         assertEquals(temp.getX1(), temp.getX2(), 0);
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testFunctionHasNoZeroPlaces(){
-
+        new QuadraticFunction(2, 0, 1);
+        Assert.fail();
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testFunctionHasNoZeroPlaces2(){
+        new QuadraticFunction(20, 10, 100);
+        Assert.fail();
+    }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testConstantFunctionOverZeroThrowsException(){
+        new QuadraticFunction(0, 0, 1);
+        Assert.fail();
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testConstantFunctionOnZeroThrowsException(){
+        new QuadraticFunction(0, 0, 0);
+        Assert.fail();
     }
 
 }
