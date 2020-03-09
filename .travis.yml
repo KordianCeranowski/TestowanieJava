@@ -1,4 +1,5 @@
 language: java
+<<<<<<< HEAD
 addons:
   apt:
     packages:
@@ -8,3 +9,8 @@ jdk:
   - oraclejdk8
   - openjdk7
   - openjdk6
+=======
+
+jdk:
+ - openjdk8
+>>>>>>> 50782a3e55e703cfd19bcfb2ba384aced1aab41c

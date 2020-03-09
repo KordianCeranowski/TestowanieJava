@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ee3e622-0a7e-4c5d-b8ab-f5f4f02a2590" name="Default Changelist" comment="Porządki na lab4">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Armstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Armstrong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChristmasSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/ChristmasSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Pangram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Planets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Planets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab3/RomanNumeral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArmstrongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/ArmstrongTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChristmasSongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/ChristmasSongTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PangramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/PangramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlanetsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/PlanetsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/PointTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab3/RomanNumeralsTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YZ1eLuiqMihiAOWzvoh4WhZnjN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.24260356" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lab3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\STUDIA\6sem\REPOZYTORIA\TestowanieJava\stepikLab3\src\test\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.FizzBuzz">
+    <configuration name="All" type="JUnit" factoryName="JUnit" folderName="lab3">
+      <module name="stepikLab3" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Armstrong" type="JUnit" factoryName="JUnit" folderName="lab3">
+      <module name="stepikLab3" />
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.ArmstrongTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Christmas" type="JUnit" factoryName="JUnit" folderName="lab3">
+      <module name="stepikLab3" />
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.ChristmasSongTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzz" type="JUnit" factoryName="JUnit" folderName="lab3">
+      <module name="stepikLab3" />
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pangram" type="JUnit" factoryName="JUnit" folderName="lab3">
+      <module name="stepikLab3" />
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.PangramTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Planets" type="JUnit" factoryName="JUnit" folderName="lab3">
+      <module name="stepikLab3" />
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.PlanetsTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Point" type="JUnit" factoryName="JUnit" folderName="lab3">
+      <module name="stepikLab3" />
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.PointTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumerals" type="JUnit" factoryName="JUnit" folderName="lab3">
+      <module name="stepikLab3" />
+      <option name="PACKAGE_NAME" value="lab3" />
+      <option name="MAIN_CLASS_NAME" value="lab3.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All" />
+      <item itemvalue="JUnit.Christmas" />
+      <item itemvalue="JUnit.Pangram" />
+      <item itemvalue="JUnit.Planets" />
+      <item itemvalue="JUnit.RomanNumerals" />
+      <item itemvalue="JUnit.Point" />
+      <item itemvalue="JUnit.Armstrong" />
+      <item itemvalue="JUnit.FizzBuzz" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ee3e622-0a7e-4c5d-b8ab-f5f4f02a2590" name="Default Changelist" comment="" />
+      <created>1583135396342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583135396342</updated>
+      <workItem from="1583135399544" duration="8915000" />
+      <workItem from="1583157437382" duration="3008000" />
+      <workItem from="1583160583058" duration="10951000" />
+      <workItem from="1583241534249" duration="1303000" />
+      <workItem from="1583608658734" duration="1001000" />
+      <workItem from="1583742476309" duration="1151000" />
+    </task>
+    <task id="LOCAL-00001" summary="Printing I">
+      <created>1583161223951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161223951</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Printing II">
+      <created>1583161252084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161252084</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Printing III">
+      <created>1583161279555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161279555</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Not printing IV">
+      <created>1583161331497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161331497</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Printing IV">
+      <created>1583161487668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161487668</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Not printing V">
+      <created>1583161516325</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161516325</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Printing V">
+      <created>1583161565430</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161565430</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Not printing VI">
+      <created>1583161600156</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161600156</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Printing VI">
+      <created>1583161631203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161631203</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Printing VII and VII and IX">
+      <created>1583161774149</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161774149</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Not printing X or more">
+      <created>1583161809553</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161809553</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Printing X">
+      <created>1583161880472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161880472</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Not printing XL and more">
+      <created>1583161925594</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583161925594</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Printing up to XLIX">
+      <created>1583162214009</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162214009</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Printing up to LXXXIX">
+      <created>1583162322276</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162322276</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Not printing over XC">
+      <created>1583162377859</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162377859</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Printing over XC">
+      <created>1583162484419</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162484419</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Not printing over C">
+      <created>1583162525613</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162525613</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Printing over C">
+      <created>1583162582321</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162582321</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Not printing over CD">
+      <created>1583162635171</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162635171</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Printing over CD">
+      <created>1583162719364</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162719364</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Not printing over D">
+      <created>1583162747985</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162747985</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Printing over D">
+      <created>1583162802121</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162802121</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Not printing over DM">
+      <created>1583162834265</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162834265</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Printing over DM">
+      <created>1583162918055</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1583162918055</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Refactor">
+      <created>1583163099871</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163099871</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Refactor if statements">
+      <created>1583163211825</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163211825</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Not printing over M">
+      <created>1583163257509</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163257509</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Printing all signs">
+      <created>1583163362543</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163362543</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added organised list of roman signs">
+      <created>1583163794891</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1583163794891</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Refactored">
+      <created>1583164066853</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1583164066853</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added Files for Christmas Song Task">
+      <created>1583165962802</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1583165962802</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Test day 1">
+      <created>1583166814375</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1583166814375</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Test day 1 working">
+      <created>1583166909592</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1583166909592</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Test day 2">
+      <created>1583166977927</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1583166977927</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Test day 2 working">
+      <created>1583167041890</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1583167041890</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Test day 12">
+      <created>1583168011570</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1583168011570</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Test day 12 working">
+      <created>1583168021806</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1583168021806</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Test singing section">
+      <created>1583168283572</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1583168283572</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Singing section working">
+      <created>1583168831938</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1583168831938</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Test sing all song">
+      <created>1583168980772</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1583168980772</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Sing all song working">
+      <created>1583169036914</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1583169036914</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Throwing exception on wrong day test">
+      <created>1583169170904</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1583169170904</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Throwing exception on wrong day test working">
+      <created>1583169200847</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1583169200847</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Throwing exception on wrong day in section test">
+      <created>1583169283251</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1583169283251</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Throwing exception on wrong day in section working">
+      <created>1583169338131</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1583169338131</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Pangram exception handling">
+      <created>1583173874049</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1583173874049</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Pangram exception handling for nulls and empty strings">
+      <created>1583174124887</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1583174124887</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="Refactor if statements" />
+    <MESSAGE value="Not printing over M" />
+    <MESSAGE value="Printing all signs" />
+    <MESSAGE value="Added organised list of roman signs" />
+    <MESSAGE value="Refactored" />
+    <MESSAGE value="Added Files for Christmas Song Task" />
+    <MESSAGE value="Test day 1" />
+    <MESSAGE value="Test day 1 working" />
+    <MESSAGE value="Test day 2" />
+    <MESSAGE value="Test day 2 working" />
+    <MESSAGE value="Test day 12" />
+    <MESSAGE value="Test day 12 working" />
+    <MESSAGE value="Test singing section" />
+    <MESSAGE value="Test singing section working" />
+    <MESSAGE value="Singing section working" />
+    <MESSAGE value="Test sing all song" />
+    <MESSAGE value="Sing all song working" />
+    <MESSAGE value="Throwing exception on wrong day test" />
+    <MESSAGE value="Throwing exception on wrong day test working" />
+    <MESSAGE value="Throwing exception on wrong day in section test" />
+    <MESSAGE value="Throwing exception on wrong day in section working" />
+    <MESSAGE value="Pangram exception handling" />
+    <MESSAGE value="Pangram exception handling for nulls and empty strings" />
+    <MESSAGE value="Porządki na lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Porządki na lab4" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="chars" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/stepikLab3$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1583137764438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/stepikLab3$Armstrong.ic" NAME="Armstrong Coverage Results" MODIFIED="1583139522650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
