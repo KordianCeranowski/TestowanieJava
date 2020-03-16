@@ -1,1 +1,2 @@
 [![Build Status](https://travis-ci.org/KordianCeranowski/TestowanieJava.svg?branch=master)](https://travis-ci.org/KordianCeranowski/TestowanieJava)
+[![codecov](https://codecov.io/gh/KordianCeranowski/TestowanieJava/branch/master/graph/badge.svg)](https://codecov.io/gh/KordianCeranowski/TestowanieJava)
