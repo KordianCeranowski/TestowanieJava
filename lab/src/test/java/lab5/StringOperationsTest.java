@@ -24,7 +24,9 @@ class StringOperationsTest {
             "!2e, e@1, !2ee@1",
             ", b, b",
             "a, , a",
-            " , , ''"
+            " , , ''",
+            "'', b, b",
+            "a, '', a",
     })
     void concat(String stringOne, String stringTwo, String expected) {
         assertEquals(expected, stringOperations.concat(stringOne, stringTwo));

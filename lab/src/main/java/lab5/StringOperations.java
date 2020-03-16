@@ -20,9 +20,9 @@ class StringOperations {
         return reversedString.toString();
     }
 
+    // Rebuilt whole function
     String concat(String a, String b)
     {
-        String retVal = null;
         StringBuilder sb = new StringBuilder();
         if (a != null && a.length() > 0)
         {
