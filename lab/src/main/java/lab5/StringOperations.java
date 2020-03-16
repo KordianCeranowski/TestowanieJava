@@ -5,7 +5,8 @@ import java.util.List;
 
 class StringOperations {
 
-    String reverse(String a) {
+    String reverse(String a)
+    {
         List<String> tempArray = new ArrayList<>(a.length());
         for (int i = 0; i < a.length(); i++)
         {
@@ -19,7 +20,8 @@ class StringOperations {
         return reversedString.toString();
     }
 
-    String concat(String a, String b) {
+    String concat(String a, String b)
+    {
         String retVal = null;
         if (a != null && a.length() > 0)
         {
@@ -34,15 +36,18 @@ class StringOperations {
         return retVal;
     }
 
-    boolean isPalindrome(String a) {
+    boolean isPalindrome(String a)
+    {
         if(a.length() <= 1)
         {
             return true;
         }
+        // a.charAt(1)  ->  a.charAt(0)
         if(!(a.charAt(0) + "").equals(a.charAt(a.length() - 1) + ""))
         {
             return false;
         }
+        // a.length() - 2  ->  a.length() - 1
         return isPalindrome(a.substring(1, a.length() - 1));
     }
 }
