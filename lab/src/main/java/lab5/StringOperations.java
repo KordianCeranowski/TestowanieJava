@@ -23,17 +23,16 @@ class StringOperations {
     String concat(String a, String b)
     {
         String retVal = null;
+        StringBuilder sb = new StringBuilder();
         if (a != null && a.length() > 0)
         {
-            StringBuilder sb = new StringBuilder();
             sb.append(a);
-            if (b != null)
-            {
-                sb.append(b);
-            }
-            retVal = sb.toString();
         }
-        return retVal;
+        if (b != null && b.length() > 0)
+        {
+            sb.append(b);
+        }
+       return sb.toString();
     }
 
     boolean isPalindrome(String a)

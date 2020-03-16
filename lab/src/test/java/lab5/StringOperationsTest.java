@@ -16,19 +16,22 @@ class StringOperationsTest {
     }
 
     @DisplayName("Concat Test")
-    @ParameterizedTest(name = "checking if {0} + {1} is {2}.")
+    @ParameterizedTest(name = "Checking if {0} + {1} is {2}")
     @CsvSource({
             "Test1, Test2, Test1Test2",
             "12, 23, 1223",
             "qwer!, adsf, qwer!adsf",
-            "!2e, e@1, !2ee@1"
+            "!2e, e@1, !2ee@1",
+            ", b, b",
+            "a, , a",
+            " , , ''"
     })
     void concat(String stringOne, String stringTwo, String expected) {
         assertEquals(expected, stringOperations.concat(stringOne, stringTwo));
     }
 
     @DisplayName("Reverse Test")
-    @ParameterizedTest(name = "Trying to reverse {0}.")
+    @ParameterizedTest(name = "Trying to reverse {0}")
     @CsvSource({
             "test, tset",
             "!!??AA, AA??!!",
@@ -44,11 +47,10 @@ class StringOperationsTest {
 
 
     @DisplayName("Palindrome Test")
-    @ParameterizedTest(name = "Checking if {0} is {1} palindrome.")
+    @ParameterizedTest(name = "Checking if {0} is a {1} palindrome")
     @CsvSource({
             "aba, true",
             "acbca, true",
-            "ącbcą, true",
             "hohohohoh, true",
             "hohhoohoh, false",
             "!hohoohoh!, true",
